@@ -1,0 +1,208 @@
+
+
+/* NAVBAR & TITLE*/
+
+#title {
+  background-color: white;
+  padding: 3% 7%;
+
+}
+
+#override{
+  padding-left: 0px !important;
+}
+
+.navbar{
+
+  font-family: 'Muli', sans-serif;
+  background-color: white;
+  margin-bottom: 8%;
+
+}
+
+.navbar-brand{
+  font-size: 2.5rem;
+}
+
+.nav-item{
+  display: flex;
+  padding-left: 30px;
+  padding-right: 20px;
+}
+
+.title-img{
+  margin-top: 40px;
+  width: 95%;
+  margin-left: 40px;
+}
+
+.title-body{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  padding-bottom: 5%;
+}
+
+.title-head{
+  font-family: 'Staatliches', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  margin-top: 40px;
+  padding-top: 0;
+  padding-bottom: 3%;
+
+}
+
+.title-div{
+  padding-bottom: 15%;
+}
+
+
+/* Services */
+
+#services{
+  padding: 3% 7%;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.card-img-top{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 90%;
+}
+
+
+
+.web_img{
+  padding-bottom: 13%;
+}
+
+.services-bottom{
+  padding-bottom: 18%;
+}
+.h2{
+  padding: 3% 0 7%;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Flip Container */
+
+/*
+flip card
+*/
+h3{
+  font-family: 'Staatliches', cursive;
+
+}
+
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.support-img{
+  height:70%;
+  width:10%;
+}
+/* About Us */
+
+#about-us{
+  background-color: #DB504A;
+  padding: 3% 7%;
+
+}
+
+.about-bottom{
+  padding-bottom: 15%;
+}
+
+.about-head{
+  font-family: 'Suez One', serif;
+
+}
+.about-img{
+  margin-left: 30px;
+  width:50%;
+
+}
+
+.about-p{
+  font-size: 1.3rem;
+  line-height: 1.5;
+  padding-top: 30px;
+  font-family: 'Poppins', sans-serif;
+  font-color: white;
+}
+
+h1{
+  font-family: 'Staatliches', cursive;
+
+}
+
+/* Contact */
+
+#contact{
+  padding: 3% 7%;
+
+}
+.contact-container{
+  font-family: 'Poppins', sans-serif;
+
+}
+
+.resume-section{
+  margin: 0;
+}
+
+h4{
+  padding-bottom: 5%;
+}
+
+form{
+  padding-bottom: 5%;
+}
+
+/* Footer */
+
+footer {
+  padding: 5% 15%;
+  background-color: #4F6D7A;
+  text-align: center;
+  width: 100%;
+}
+
+.footer-p{
+  padding-top: 2%;
+}
+.icon {
+  padding: 0 20px;
+  color: black;
+}
+.icon:hover{
+  color: pink;
+}
